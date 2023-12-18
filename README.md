@@ -12,4 +12,6 @@ I decided to show an example use-case by making it as a simple Flask app.
 
 I check for oversized input as well as numeric-only input in the ID field, as you don't want to let through malicious scripts that have been encoded.
 
+I haven't used Flask before really, so the base of the application was taken from [Digital Ocean - How to use Web Forms in a Flask Application](https://www.digitalocean.com/community/tutorials/how-to-use-web-forms-in-a-flask-application)
+
 
