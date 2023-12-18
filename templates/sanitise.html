@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="msg">Form</h1>
+    <form method="post">
+        <label for="title">User ID</label>
+        <br/>
+        <input type="text" name="id"
+               placeholder="e.g., 472827"
+               value="{{ request.form['id'] }}"></input>
+        <br/>
+
+        <label for="content">Password</label>
+        <br/>
+        <input type="text" name="pwd"
+               placeholder="Enter password"
+               value="{{ request.form['pwd'] }}"></input>
+        <br/>
+        <button type="submit">Submit</button>
+    </form>
+{% endblock %}

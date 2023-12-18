@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="msg"">Hello</h1>
+    {% for message in messages %}
+            <p class="msg">{{ message }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}
